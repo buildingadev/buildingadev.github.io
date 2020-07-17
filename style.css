@@ -359,6 +359,10 @@ footer p:first-child a:hover{
     background-color: var(--border-button-color);
 }
 
+footer p:nth-child(2){
+    margin-top: 5rem;
+}
+
 footer p:last-child{
     font-size: .8rem;
     margin-top: 5rem;
