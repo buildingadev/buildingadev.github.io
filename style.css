@@ -12,7 +12,10 @@
     --sec-bg-color: #1e3a85;
     --border-button-color: goldenrod;
     --sscreen-fontsize: 1.45rem;
-    --mscreen-fontsize: 1.8rem;
+    --mscreen-landing-fontsize: 1.8rem;
+    --mscreen-h1-fontsize: 1.35rem;
+    --sscreen-h2-fontsize: 1rem;
+    --mscreen-nav-fontsize: 1rem;
 }
 
 html{
@@ -296,6 +299,7 @@ nav {
 .card h2{
     color: white;
     text-align: center;
+    font-size: var(--sscreen-h2-fontsize);
 }
 
 .card img{
@@ -390,6 +394,7 @@ footer p:last-child a:focus
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        font-size: var(--mscreen-nav-fontsize);
     }
 
     .navbar-links{
@@ -421,7 +426,7 @@ footer p:last-child a:focus
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        font-size: var(--mscreen-fontsize);
+        font-size: var(--mscreen-landing-fontsize);
     }
 
     .landing img{
@@ -435,15 +440,15 @@ footer p:last-child a:focus
     }
 
     .current h1{
-        font-size: var(--mscreen-fontsize);
+        font-size: var(--mscreen-h1-fontsize);
     }
 
     .learning h1{
-        font-size: var(--mscreen-fontsize);
+        font-size: var(--mscreen-h1-fontsize);
     }
 
     .projects h1{
-        font-size: var(--mscreen-fontsize);
+        font-size: var(--mscreen-h1-fontsize);
     }
 
     .icones ul li img{
@@ -509,7 +514,7 @@ footer p:last-child a:focus
     }
 
     .landing{
-        font-size: var(--mscreen-fontsize);
+        font-size: var(--mscreen-landing-fontsize);
     }
 
     .landing img{
