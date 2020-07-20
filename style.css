@@ -11,7 +11,7 @@
     --sec-bg-color: #1e3a85;
     --border-button-color: goldenrod;
     --sscreen-fontsize: 1.45rem;
-    --mscreen-landing-fontsize: 1.8rem;
+    --mscreen-landing-fontsize: 2rem;
     --mscreen-h1-fontsize: 1.35rem;
     --sscreen-h2-fontsize: 1rem;
     --mscreen-nav-fontsize: 1rem;
@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', Verdana, sans-serif;
 }
 
 header, main, footer{
@@ -332,7 +332,7 @@ nav {
     background-color: var(--border-button-color);
     color: white;
     font-weight: bold;
-    font-size: .85rem;
+    font-size: 1rem;
     border: none;
     text-align: center;
     padding: 8px 10px;
@@ -544,6 +544,7 @@ footer p:last-child a:focus
     .landing p{
         width: 50%;
     }
+
 }
 
 @media screen and (min-width: 1800px){
